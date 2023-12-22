@@ -36,13 +36,13 @@ class BankAccount
 		{
 			cout<<"Enter the amount to be deposit"<<endl;
 			cin>>deposite;
-			tod=20000+deposite;
-		    cout<<"Remaining balance ="<<tod<<endl;
-		    cout<<"Enter the amount to be Withdraw"<<endl;
-		    cin>>withdraw;
-		    withdraw=display_balance -withdraw;
-		    cout<<"Remaining balance ="<<towith<<endl;
-		    cout<<"Name ="<<name<<endl<<"Balance = "<<bal<<endl;
+		    	display_balance=20000+deposite;
+		    	cout<<"Remaining balance ="<<display_balance<<endl;
+		   	cout<<"Enter the amount to be Withdraw"<<endl;
+		    	cin>>withdraw;
+		    	withdraw=display_balance -withdraw;
+		    	cout<<"Remaining balance ="<<towith<<endl;
+		    	cout<<"Name ="<<name<<endl<<"Balance = "<<bal<<endl;
 		}
 };
 int main()
