@@ -13,22 +13,22 @@ class String
         public:
                 void accept_string() 
                 {
-                        cout<<"\n Enter String : ";
-                        cin>>name;
+                    cout<<"\n Enter String : ";
+                    cin>>name;
                 }
                 void display_string() 
                 {
-                        cout<<name;
+                    cout<<name;
                 }
                 String operator+(String x)  
                 {
-                        String s;
-                        strcat(name,x.name);
-                        strcpy(s.name,name);
-                        return s;
+                    String s;
+                    strcat(name,x.name);
+                    strcpy(s.name,name);
+                    return s;
                 }
 };
-int main()
+main()
 {
         String str1, str2, str3;
 
